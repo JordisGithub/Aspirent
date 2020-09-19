@@ -1,0 +1,57 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 30px;
+}
+
+.header__logo {
+
+  /* border: solid red 2pt; */
+}
+
+.header__icon-list {
+  display: flex;
+  /* border: solid red 2pt; */
+}
+
+.header__icon-item {
+  list-style: none;
+}
+
+.fa-linkedin-in {
+  background-color: #acaeb3ea;
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
+  font-size: 15px;
+}
+
+.fa-twitter {
+  font-size: 30px;
+  color: #acaeb3ea;
+}
+
+.header__button {
+
+  text-align: center;
+  font-family: 'Barlow', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  letter-spacing: 2px;
+  line-height: 1;
+  border-radius: 5px;
+  transition: background 200ms ease 0s;
+  background: none rgb(214, 141, 95);
+  text-transform: uppercase;
+  width: 157px;
+  cursor: pointer;
+  border: none;
+  box-sizing: border-box;
+  height: 47px;
+  /* z-index: 4; */
+  /* position: absolute; */
+  /* top: 6px; */
+  /* left: 0px; */
+
+}
