@@ -16,15 +16,17 @@
   /* font-family: Helvetica, Arial, sans-serif; */
   font-size: 4em;
   font-weight: 800;
+  color: rgb(9, 23, 71);
 }
 
 .hero_text__highlight {
   width: 300px;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   margin-top: 18px;
   letter-spacing: 1.2px;
   line-height: 30px;
+  color: rgb(9, 23, 71);
 }
 
 .hero_text__paragraph {
