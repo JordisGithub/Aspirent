@@ -11,8 +11,8 @@ function App() {
     <div className="App">
       <Header />
       <Hero />
-      <Services />
-      <AboutUs />
+      {/* <Services />
+      <AboutUs /> */}
     </div>
   );
 }
