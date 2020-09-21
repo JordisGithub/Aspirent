@@ -3,16 +3,17 @@ import "./Hero.css";
 
 function Hero() {
   return (
-    <>
+    <div className="hero">
       <section className="hero_text">
-        <div>What is Aspirent?</div>
-        <div>Collaborate, invest, exchange, all in one place.</div>
-        <div>
-          What is Aspirent? Collaborate, invest, exchange, all in one place. The
-          platform for entrepreneurs, investors, industry experts & corporates
-          to work together to solve real problems.
+        <div className="hero_text__heading">What is Aspirent?</div>
+        <div className="hero_text__highlight">
+          Collaborate, invest, exchange, all in one place.
         </div>
-        <button className="header__button">get started</button>
+        <div className="hero_text__paragraph">
+          The platform for entrepreneurs, investors, industry experts &
+          corporates to work together to solve real problems.
+        </div>
+        <button className="hero__button">get started</button>
       </section>
       <section className="hero_video">
         <iframe
@@ -24,7 +25,7 @@ function Hero() {
           allowfullscreen
         ></iframe>
       </section>
-    </>
+    </div>
   );
 }
 
