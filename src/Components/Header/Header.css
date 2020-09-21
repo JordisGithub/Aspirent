@@ -1,20 +1,26 @@
 .header {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
   padding-top: 30px;
+  width: 90%;
+  margin: auto;
+  /* border: solid red 2pt; */
 }
 
 .header__logo {
+  height: max-content;
 
-  /* border: solid red 2pt; */
 }
 
 .header__icon-list {
+  /* border: solid blue 2pt; */
   display: flex;
-  /* border: solid red 2pt; */
+  margin-left: auto;
+  margin-top: auto;
+  align-items: center;
 }
 
 .header__icon-item {
+  /* border: solid red 2pt; */
   list-style: none;
 }
 
@@ -23,12 +29,14 @@
   padding: 10px;
   border-radius: 50%;
   color: white;
-  font-size: 15px;
+  font-size: 17px;
+  margin-right: 20px;
 }
 
 .fa-twitter {
   font-size: 30px;
   color: #acaeb3ea;
+  margin-right: 60px;
 }
 
 .header__button {
@@ -49,9 +57,4 @@
   border: none;
   box-sizing: border-box;
   height: 47px;
-  /* z-index: 4; */
-  /* position: absolute; */
-  /* top: 6px; */
-  /* left: 0px; */
-
 }
