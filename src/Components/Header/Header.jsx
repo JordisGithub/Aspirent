@@ -21,7 +21,6 @@ function Header() {
             <i className="fab fa-linkedin-in"></i>
           </a>
         </li>
-
         <li className="header__icon-item">
           <a
             href="https://twitter.com/aspirentg"
