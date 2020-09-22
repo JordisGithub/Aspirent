@@ -1,11 +1,15 @@
 .services {
   margin-top: 80px;
+
   background-color: rgb(250, 250, 252);
+  /* font-family: Helvetica, Arial, sans-serif; */
+  font-family: 'Barlow', sans-serif;
 }
 
 
 .services-grid {
   padding-top: 80px;
+  padding-bottom: 80px;
   width: 80%;
   margin: auto;
   display: grid;
@@ -13,12 +17,38 @@
 }
 
 .services-grid__item {
-  border: solid red 2pt;
   /* display: flex;
   flex-direction: column; */
 }
 
-.services-grid__image {
+.services-grid__image img {
+  margin: auto;
+  /* border: solid blue 2pt; */
+  display: block;
+  /* margin-right: auto; */
+}
+
+.services-grid__title {
+  color: rgb(9, 23, 71);
+  font-size: 22px;
+  font-weight: 500;
+  /* display: block; */
+  /* margin: auto; */
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+
+}
+
+.services-grid__description {
+  /* border: solid red 2pt; */
+  color: rgb(59, 59, 59);
+  color: gray;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 1.4;
+  font-size: 15px;
+  width: 75%;
   margin: auto;
 
 }
