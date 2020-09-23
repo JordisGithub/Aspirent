@@ -18,4 +18,26 @@
   background-image:
     -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%),
     url("https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fs3.amazonaws.com%2Fappforest_uf%2Ff1597233200797x927968929365980900%2Fpexels-photo-3153201.jpeg?w=1536&h=&auto=compress&dpr=0.75&fit=max");
+  color: rgb(255, 255, 255);
+  font-family: 'Barlow', sans-serif;
+}
+
+.aboutus__title {
+  margin-left: 50px;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.5;
+  padding-top: 355px;
+  letter-spacing: 1.8px;
+  /* z-index: 29; */
+}
+
+.aboutus__paragaph {
+  margin-top: 13px;
+  margin-left: 50px;
+  /* font- */
+  line-height: 1.7;
+  font-size: 15px;
+  font-weight: 200;
+  max-width: 650pt;
 }
