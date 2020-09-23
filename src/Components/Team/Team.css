@@ -1,0 +1,44 @@
+.team {
+  padding-top: 50px;
+  font-family: 'Barlow', sans-serif;
+}
+
+.team__title {
+  color: rgb(9, 23, 71);
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.team-grid {
+  margin-top: 50px;
+  /* border: 2px solid red; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 325px;
+}
+
+.team-grid__member {
+  /* border: 2px solid green; */
+}
+
+.team-grid__member-pic img {
+  align-items: center;
+  margin: auto;
+  display: block;
+}
+
+.team-grid__member-name {
+  height: 40px;
+  /* border: 2px solid blue; */
+  color: rgb(9, 23, 71);
+  font-size: 22px;
+  text-align: center;
+
+}
+
+.team-grid__member-title {
+  color: rgb(59, 59, 59);
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.4;
+}
