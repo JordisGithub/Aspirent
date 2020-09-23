@@ -6,6 +6,7 @@ import Hero from './Components/Hero/Hero'
 import Services from './Components/Services/Services'
 import Team from './Components/Team/Team'
 import AboutUs from './Components/AboutUs/AboutUs'
+import Footer from './Components/Footer/Footer'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Services />
       <Team />
       <AboutUs />
+      <Footer />
     </div>
   );
 }

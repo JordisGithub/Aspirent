@@ -50,5 +50,6 @@
   font-size: 15px;
   width: 75%;
   margin: auto;
-
+  letter-spacing: 1.2px;
+  text-emphasis: 400;
 }
