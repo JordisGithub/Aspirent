@@ -1,4 +1,21 @@
-.team {
-  width: 90%;
-  margin: auto;
+.aboutus {
+  /* width: 90%; */
+  /* left: 0px; */
+  /* position: absolute; */
+  /* box-sizing: border-box; */
+  /* z - index: 26; */
+  /* top: 0px; */
+  /* background-color: rgba(255, 255, 255, 0); */
+  /* border-radius: 0px; */
+  /* margin: auto; */
+  /* margin-bottom: 100px; */
+  background-position: center;
+  margin-top: 50px;
+  width: 100%;
+  height: 605px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image:
+    -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%),
+    url("https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fs3.amazonaws.com%2Fappforest_uf%2Ff1597233200797x927968929365980900%2Fpexels-photo-3153201.jpeg?w=1536&h=&auto=compress&dpr=0.75&fit=max");
 }
