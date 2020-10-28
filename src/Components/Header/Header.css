@@ -1,12 +1,13 @@
 .header {
-  display: flex;
-  padding-top: 30px;
-  width: 90%;
+  /* border: solid green 2pt; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 95%;
   margin: auto;
-  /* border: solid red 2pt; */
 }
 
 .header__logo {
+  padding-top: 30px;
   height: max-content;
 
 }
@@ -14,9 +15,15 @@
 .header__icon-list {
   /* border: solid blue 2pt; */
   display: flex;
-  margin-left: auto;
-  margin-top: auto;
   align-items: center;
+  justify-content: flex-end;
+}
+
+.header__rightside{
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .header__icon-item {
@@ -57,4 +64,39 @@
   border: none;
   box-sizing: border-box;
   height: 47px;
+}
+
+
+/* =======================================
+===========Media Queries===============
+======================================== */
+
+/* * ----------- iPhone X ----------- */ 
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  /* and (-webkit-min-device-pixel-ratio: 3)  */
+  { 
+    .header {
+      width: 95%;
+    }
+
+    .header__rightside{
+      display: grid;
+    }
+
+    .header__icon-list {
+     width: 100px;
+    }  
+    
+    .fa-twitter {
+      margin-right: 0px;
+    }
+    
+    .header__button {
+      margin-left: 55px;
+      width: 90px;
+    }
 }
