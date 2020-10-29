@@ -7,7 +7,7 @@
 
 
 .services-grid {
-  border: solid blue 2pt;
+  /* border: solid blue 2pt; */
   padding-top: 80px;
   padding-bottom: 80px;
   width: 80%;
@@ -17,13 +17,13 @@
 }
 
 .services-grid__item {
-  border: solid red 2pt;
+  /* border: solid red 2pt; */
   /* display: flex;
   flex-direction: column; */
 }
 
 .services-grid__image img {
-  border: solid blue 2pt;
+  /* border: solid blue 2pt; */
   margin: auto;
   width: 80%;
   display: block;
@@ -67,8 +67,14 @@
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-
+  /* and (-webkit-min-device-pixel-ratio: 3)  */
+  { 
+    .services-grid {
+      grid-template-columns: 1fr ;
+      grid-gap: 40px;
+      padding-top: 10px;
+      padding-bottom: 40px;
+    }
 }
 
 /* Portrait */

@@ -17,9 +17,11 @@ function Hero() {
       </section>
       <section className="hero_video">
         <iframe
+        title="About Aspirent"
           width="100%"
           height="296"
           src="https://www.youtube.com/embed/0sWVDWwndu4"
+          poster="https://i.imgur.com/G0mxXHI.png"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen

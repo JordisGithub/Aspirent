@@ -60,13 +60,12 @@
 }
 
 .hero_video {
-  /* border: 2px solid blue; */
+  border: 1px solid black;
   /* margin-left: auto; */
 }
 
 
 @media  (max-width: 975px) {
-
   .hero{
   grid-template-columns: 1fr;
 }
@@ -80,21 +79,12 @@
   margin-top: -30px;
 }
 
-
 .hero_text__paragraph {
   width: 80%;
 }
 
-
 .hero_video {
-  /* border: 2px solid blue; */
   margin: auto;
   margin-top: 60px;
-  /* margin-bottom: -50px; */
-  /* max-width: 70%; */
 }
-
-
-
-
 }
