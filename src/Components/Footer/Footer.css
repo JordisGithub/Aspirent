@@ -4,22 +4,50 @@
   font-family: 'Barlow', sans-serif;
   display: flex;
   height: 120px;
-  /* position: absolute; */
-  /* margin-bottom: 0; */
-  /* margin-bottom: -100px; */
+
 }
 
 .footer ul {
   display: flex;
   align-items: center;
+  
 }
 
 .footer li {
-  /* color: blue; */
-  /* flex-shrink: 0; */
   display: flex;
   text-decoration: none;
   font-size: 12px;
   margin-left: 30px;
-
 }
+
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  { 
+   
+    .footer {
+      background-color: rgb(4, 11, 36);
+      color: white;
+      font-family: 'Barlow', sans-serif;
+      display: flex;
+      height: 120px;
+    }
+    
+    .footer ul {
+      /* border: solid 2pt red; */
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin: auto;
+      height: 70%;
+      width: 90%;
+      /* margin: 0; */
+      padding: 0;
+    }
+    
+    .footer li {  
+      /* border: solid 2pt green; */
+      margin-left: 10px;
+      /* width: 40%; */     
+    }
+    }
