@@ -41,3 +41,27 @@
   font-weight: 200;
   max-width: 650pt;
 }
+
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  /* and (-webkit-min-device-pixel-ratio: 3)  */
+  { 
+   
+    .aboutus {
+      margin-top: 0px;
+      height: 455px;
+    }
+    
+    .aboutus__title {
+       padding-top: 120px;
+    
+    }
+    
+    .aboutus__paragaph {
+      max-width: 80%;
+
+    }
+
+}
